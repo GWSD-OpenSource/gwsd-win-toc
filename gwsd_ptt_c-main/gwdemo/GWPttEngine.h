@@ -29,6 +29,8 @@ DLL_EXPORT int pttInit(GWPttEvent cb, GWMsgEvent cb1, GWPttAudioModule *audioMod
 
 DLL_EXPORT int pttSetLogCallback(int level, print_log_cb cb);
 
+DLL_EXPORT int pttControlLog(int level, char logToFile);
+
 DLL_EXPORT int pttSetQueuePath(const char *path);
 
 DLL_EXPORT int pttEnableMsg(int enable);
@@ -96,6 +98,8 @@ DLL_EXPORT int pttRegOfflineMsg(int groups[], int types[], int num, char securit
 DLL_EXPORT int pttRegOnlineMsg(int groups[], int types[], int num, char security);
 
 DLL_EXPORT int pttSendMsg(int sid, const char *snm, int type, int id, const char *rnm, int msgType, const char *content, const char *thumburl, int time);
+
+DLL_EXPORT int pttSendTextMsg(int rid,int type,const char *content);
 
 DLL_EXPORT int pttReportLocationGps(double lat, double lon,int type,int uid);
 
