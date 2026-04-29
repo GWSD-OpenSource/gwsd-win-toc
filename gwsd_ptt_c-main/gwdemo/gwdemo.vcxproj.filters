@@ -27,15 +27,18 @@
     <ClCompile Include="GWLog.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="datalist.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WinAudioDevice.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GWPttAudioDevice.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="GWPttEngine.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="gwsd_ptt.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="lc.h">
@@ -54,6 +57,15 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="GWLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gw_ptt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datalist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAudioDevice.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
